@@ -6,11 +6,11 @@ class Ditto < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pattynextdoor/ditto/releases/download/v#{version}/ditto-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
+      url "https://github.com/pattynextdoor/ditto/releases/download/v0.1.0/ditto-aarch64-apple-darwin.tar.gz"
+      sha256 "443fba9306631a174d05bf6fec91f14c5b98eb558a55c10c8f683c03815011e6"
     else
-      url "https://github.com/pattynextdoor/ditto/releases/download/v#{version}/ditto-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
+      url "https://github.com/pattynextdoor/ditto/releases/download/v0.1.0/ditto-x86_64-apple-darwin.tar.gz"
+      sha256 "89f83b29c5eb2603ab6fd8a5a0436f0c2839c86fba40de19d4cc710a01523923"
     end
   end
 
