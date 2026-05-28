@@ -2,25 +2,25 @@ class Tp < Formula
   desc "Teleport anywhere in your codebase — AI-enhanced, project-aware directory navigation"
   homepage "https://github.com/pattynextdoor/tp"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/pattynextdoor/tp/releases/download/v#{version}/tp-macos-aarch64.tar.gz"
-      sha256 "77e709269f4c1b30da2f4051dea070ecde895768c143bd9b75c9867167991899"
+      sha256 "b61c18f5df4959834729c675c6797e18451ccc91e0d18a5fd2d3026244e528e5"
     else
       url "https://github.com/pattynextdoor/tp/releases/download/v#{version}/tp-macos-x86_64.tar.gz"
-      sha256 "38b76f21d82e593da888952fad0448d377b7c7da12570a041a6615a6cf66b597"
+      sha256 "41074d8277faf928bf7bd353c012d7990892c205a69f9aea12822075d208521d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/pattynextdoor/tp/releases/download/v#{version}/tp-linux-aarch64.tar.gz"
-      sha256 "dca412145e7b764caf603ffb01c3de9ddfb9c5b427f30cc8e845130a2f5fe33c"
+      sha256 "96ce5c9d9443a8a1bee5568ed0c049b72ac3bdd14530bf02186270bf21b6696d"
     else
       url "https://github.com/pattynextdoor/tp/releases/download/v#{version}/tp-linux-x86_64.tar.gz"
-      sha256 "46fee2723354319682f2692efa7c25d6d5fbc114ed346d611d359da6d9834ce0"
+      sha256 "39a5dcbf9c6ef4242d0f11544ceaec3c70630b4345aa37d64c46147986100e34"
     end
   end
 
